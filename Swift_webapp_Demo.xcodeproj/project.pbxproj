@@ -156,6 +156,8 @@
 		036D80041BA70C6900FBA624 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = XUHUI;
 				TargetAttributes = {
@@ -411,6 +413,7 @@
 				036D802D1BA70C6A00FBA624 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		036D802E1BA70C6A00FBA624 /* Build configuration list for PBXNativeTarget "Swift_webapp_DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +422,7 @@
 				036D80301BA70C6A00FBA624 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

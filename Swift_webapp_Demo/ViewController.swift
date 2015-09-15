@@ -72,13 +72,18 @@ extension wkScriptMessageHandler {
                         if obj.respondsToSelector(functionSelector) {
                             obj.performSelector(functionSelector)
                         } else {
-                            print("方法未找到！")
+                            print("方法未找到！", terminator: "")
                         }
                     } else {
-                        print("类未找到！")
+                        print("类未找到！", terminator: "")
                     }
             }
         }
     }
 }
 
+class Callme: NSObject {
+    func maybe() {
+        print("反射成功！")
+    }
+}
